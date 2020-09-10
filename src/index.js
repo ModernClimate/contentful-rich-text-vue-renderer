@@ -1,6 +1,7 @@
 import { BLOCKS, MARKS, INLINES, helpers } from "@contentful/rich-text-types";
 
 const defaultInline = (type, node, key, h) => {
+    console.log(type, node, key, h);
     return h(
         'span',
         {
